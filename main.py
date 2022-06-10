@@ -1,4 +1,13 @@
-#print('João', 'Maria', end= '.') #é usado ao final da frase
-#Ex1 Faça o programa de Gerador de CPF: 045.855.456-02
-print('045', '855', '456', sep= '.', end= '-' )
-print('02')
+print('------------------')
+print('ESCOLA BABY SAFADA')
+print('------------------')
+n1 = input(float('DIGÍTE A PRIMEIRA NOTA: '))
+n2 = input(float('DIGÍTE A SEGUNDA NOTA: '))
+m = (n1 + n2)/2
+if m >= 7:
+  print('ALUNO APROVADO!')
+else:
+  if (m >= 5) and (m < 6):
+    print('ALUNO EM RECUPERAÇÃO!')
+  else:
+    print('ALUNO REPROVADO!')
